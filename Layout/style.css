@@ -1,0 +1,271 @@
+.font {
+  font-family: Gilroy, sans-serif !important;
+}
+.MenuItems :hover {
+  border-bottom: 2px solid rgb(16, 214, 26);
+  padding-bottom: 2px;
+}
+.logo {
+  width: 60px;
+}
+
+.navbar i {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.sectionTitle {
+  font-family: Gilroy, sans-serif !important;
+  color: rgb(63, 62, 62);
+  font-size: 35px;
+  font-weight: 800;
+  margin-top: 100px;
+}
+
+.sectionImages {
+  width: 20%;
+  min-height: 200px;
+}
+
+body {
+  background-color: rgba(199, 199, 199, 0.666);
+}
+.cards-wrapper {
+  float: left;
+  width: 31%;
+  margin-left: 10px;
+}
+.card img {
+  width: 70%;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+
+  border-radius: 3%;
+  background-color: rgb(242, 244, 243);
+  height: 450px;
+  margin-bottom: 50px;
+}
+.cardImgBox {
+  width: 100%;
+  height: 45%;
+  padding-left: 35px;
+}
+.cardContentBox {
+  /* background-color: antiquewhite; */
+  width: 100%;
+  height: 40%;
+  padding-left: 10px;
+}
+.cardContentBox h4 {
+  font-size: 16px;
+  font-family: Gilroy, sans-serif !important;
+  color: rgb(63, 62, 62);
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.cardContentBox h3 {
+  font-size: 16px;
+  font-family: Gilroy, sans-serif !important;
+  color: rgb(63, 62, 62);
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.cardContentBox h2 {
+  font-size: 14px;
+  font-family: Gilroy, sans-serif !important;
+  color: rgb(149, 144, 144);
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: 15px;
+  text-decoration: line-through;
+  text-align: center;
+}
+
+.cardPriceBox {
+  width: 100%;
+  height: 30px;
+  display: flex;
+}
+hr {
+  margin-right: 25px;
+}
+.cardContentBox ul {
+  list-style: none;
+  position: absolute;
+  left: 0;
+}
+.cardContentBox ul li::before {
+  content: "•";
+  color: rgb(57, 222, 104);
+  font-size: 18px;
+}
+.cardContentBox li {
+  text-align: left;
+  font-size: 14px;
+  font-family: Gilroy, sans-serif !important;
+  color: rgb(63, 62, 62);
+}
+
+.colorsAvailabe {
+  width: 70%;
+  height: 25px;
+  display: flex;
+  margin-left: 15px;
+}
+.colorsAvailabe h6 {
+  font-size: 14px;
+  font-family: Gilroy, sans-serif !important;
+  color: rgb(131, 128, 128);
+  display: flex;
+  flex-direction: row;
+  margin-right: 15px;
+}
+.colorsCircle {
+  width: 16px;
+  height: 16px;
+  border-radius: 90%;
+  background-color: red;
+  margin-right: 7px;
+  border: 0.5px solid black;
+}
+.ShopNow {
+  margin-top: 3px;
+  margin-left: 15px;
+}
+.ShopNowText1 {
+  font-size: 10px;
+  font-family: Gilroy, sans-serif !important;
+  color: rgb(63, 62, 62);
+  text-decoration: none;
+  font-weight: 800;
+  word-spacing: 3px;
+}
+.ShopNowText2 {
+  font-size: 14px;
+  font-family: Gilroy, sans-serif !important;
+  color: rgb(149, 144, 144);
+  text-decoration: none;
+}
+.ShopNow :hover {
+  color: rgb(63, 62, 62);
+}
+
+/* .carousel-indicators {
+  background-color: rgb(240, 236, 236);
+} */
+.carousel-indicators .active {
+  background-color: rgb(70, 227, 26);
+}
+.SubSectionTitle {
+  font-family: Gilroy, sans-serif !important;
+  color: rgb(101, 101, 101);
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.moreProductsBox {
+  width: 94%;
+  height: 300px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.moreProductsBox img {
+  width: 47%;
+  height: 47%;
+  margin: 5px;
+  float: left;
+}
+.footer {
+  width: 100%;
+  height: 430px;
+  background-image: linear-gradient(rgb(99, 97, 97), rgb(30, 30, 29));
+  padding-left: 80px;
+  padding-top: 100px;
+}
+.footer ul {
+  list-style: none;
+}
+.FooterContentBox {
+  width: 15%;
+  height: auto;
+  float: left;
+  margin-left: 20px;
+}
+.FooterHeadings {
+  font-size: 16px;
+  font-family: Gilroy, sans-serif !important;
+  color: rgb(237, 230, 230);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+/* .FooterDetailBox {
+  width: 20%;
+  height: 40%;
+  background-color: aquamarine;
+  margin-top: 30px;
+  margin-right: 50px;
+} */
+
+.footer ul li {
+  margin-top: 10px;
+}
+
+.FooterContent {
+  font-size: 12px;
+  font-family: Gilroy, sans-serif !important;
+  color: rgb(146, 142, 142);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.footer ul li :hover {
+  color: rgb(255, 255, 255);
+}
+.FooterSocialMediaBox {
+  width: 100%;
+  height: 35px;
+  /* background-color: aquamarine; */
+  margin-top: 200px;
+}
+.SMbox {
+  width: 34px;
+  height: 100%;
+  padding: 5px;
+  background-color: rgb(99, 97, 97);
+  margin-right: 10px;
+  text-align: center;
+  padding-top: 7px;
+
+  float: left;
+}
+
+.SMbox i {
+  color: aliceblue;
+
+  font-size: 20px;
+
+  align-self: center;
+}
+.SMbox2 {
+  width: 120px;
+  height: 100%;
+  background-color: rgb(99, 97, 97);
+  margin-left: 30px;
+  float: left;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.SMbox2 p {
+  color: aliceblue;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: Gilroy, sans-serif !important;
+}
